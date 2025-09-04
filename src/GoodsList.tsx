@@ -12,7 +12,7 @@ export const GoodsList = React.memo(function GoodsList({ goods }: Props) {
         <li
           key={good.id}
           data-cy="good"
-          style={{ backgroundColor: good.color }}
+          style={{  color: good.color }}
         >
           {good.name}
         </li>
